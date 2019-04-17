@@ -3,6 +3,9 @@
     <h1>{{ animal.name }} ({{ $route.params.species }})</h1>
     <p>Age: {{ animal.age }} years old</p>
     <p>Breed: {{ animal.breed }}</p>
+    <hr>
+    <h4>Notes</h4>
+    <p>{{animal.notes}}</p>
   </div>
 </template>
 
